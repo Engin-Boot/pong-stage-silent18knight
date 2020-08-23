@@ -14,7 +14,7 @@ It performs the player to create profile for the game
 
   Then they have to enter their name and create their profile for the first time.
 
-### Scenario: Initially when someone enters the game after signup
+### Scenario: Initially when someone enters the game after sign up
 
 Given someone opens the game again
 
