@@ -1,17 +1,16 @@
-# -give-this-module-a-name
+# Score count
 
 ## Feature
 
-What part of the game does this module deliver?
+This part will count the score of both the players
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: counting scores of the players
 
-  Given -give-initial-values-and-conditions
+  Given players are playing with each other
+  
+  When the ball touches the ball on the wall behind the players
 
-  When -event-happens
-
-  Then -module-does-this
-
-### -add-scenario-if-needed
+  Then the count will be incremented by 1 for the player who hits the ball
+  on the wall of the opponent.
