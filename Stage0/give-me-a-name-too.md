@@ -1,17 +1,23 @@
-# -give-this-module-a-name
+# Sign up or login for the game
 
 ## Feature
 
-What part of the game does this module deliver?
+It performs the player to create profile for the game
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: Initially when someone enters the game then signing up is mandatory.
 
-  Given -give-initial-values-and-conditions
+  Given someone opens the game
 
-  When -event-happens
+  When someone try to start play
 
-  Then -module-does-this
+  Then they have to enter their name and create their profile for the first time.
 
-### -add-scenario-if-needed
+### Scenario: Initially when someone enters the game after signup.
+
+Given someone opens the game again
+
+When he try to play the game
+
+Then he just have to enter his login credentials for the game to start from the last checkpoint.
